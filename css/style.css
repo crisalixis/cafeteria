@@ -1,0 +1,111 @@
+.btn-violet-primary {
+  font-weight: 450;
+  color: #ffffff;
+  background-color: #6f42c1;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: background-color 0.3s, border-color 0.3s;
+}
+.btn-violet-primary:hover {
+  background-color: rgba(111, 66, 193, 0.8);
+}
+.btn-violet-primary:active {
+  background-color: rgba(111, 66, 193, 0.5);
+}
+.btn-violet-primary:focus {
+  outline: none;
+  box-shadow: 0 0 0 0.2rem #6f42c1;
+}
+
+.btn-green-darky-primary {
+  font-weight: 450;
+  color: #ffffff;
+  background-color: #497e2a;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: background-color 0.3s, border-color 0.3s;
+}
+.btn-green-darky-primary:hover {
+  background-color: rgba(73, 126, 42, 0.8);
+}
+.btn-green-darky-primary:active {
+  background-color: rgba(73, 126, 42, 0.5);
+}
+.btn-green-darky-primary:focus {
+  outline: none;
+  box-shadow: 0 0 0 0.2rem #497e2a;
+}
+
+.btn-red-primary {
+  font-weight: 450;
+  color: #ffffff;
+  background-color: #b62f2f;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: background-color 0.3s, border-color 0.3s;
+}
+.btn-red-primary:hover {
+  background-color: rgba(182, 47, 47, 0.8);
+}
+.btn-red-primary:active {
+  background-color: rgba(182, 47, 47, 0.5);
+}
+.btn-red-primary:focus {
+  outline: none;
+  box-shadow: 0 0 0 0.2rem #b62f2f;
+}
+
+.btn-green-clear-primary {
+  font-weight: 450;
+  color: #ffffff;
+  background-color: #40a777;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: background-color 0.3s, border-color 0.3s;
+}
+.btn-green-clear-primary:hover {
+  background-color: rgba(64, 167, 119, 0.8);
+}
+.btn-green-clear-primary:active {
+  background-color: rgba(64, 167, 119, 0.5);
+}
+.btn-green-clear-primary:focus {
+  outline: none;
+  box-shadow: 0 0 0 0.2rem #40a777;
+}
+
+.btn-blue-primary {
+  font-weight: 450;
+  color: #ffffff;
+  background-color: #3b2292;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: background-color 0.3s, border-color 0.3s;
+}
+.btn-blue-primary:hover {
+  background-color: rgba(59, 34, 146, 0.8);
+}
+.btn-blue-primary:active {
+  background-color: rgba(59, 34, 146, 0.5);
+}
+.btn-blue-primary:focus {
+  outline: none;
+  box-shadow: 0 0 0 0.2rem #3b2292;
+}
+
+/*# sourceMappingURL=style.css.map */
+
+#botones {
+  background-color: #d9e9dfd7;
+  padding: 10px 5px 10px 5px;
+}
+
+#album .album{
+  background-color: #eef8eed7;
+  padding: 100px 0px 100px 0px;
+}
