@@ -1,2 +1,3 @@
-# cafeteria
-Sistema de una Cafeteria
+# Cafeteria
+Recetrario de la cafeteria
+
