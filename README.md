@@ -1,3 +1,3 @@
 # Cafeteria
-Recetrario de la cafeteria
+Recetario de la cafeteria
 
