@@ -1,26 +1,29 @@
 async function ObtenerCotisacion() {
     try {
-        const respuestaDeApi = await fetch("./cafeteria.json");
-        if (!respuestaDeApi.ok) throw new Error("Error al obtener los datos");
-        const dato = await respuestaDeApi.json();
+        const RespuestadeApi = await fetch("./cafeteria.json");
+        if (!RespuestadeApi.ok) throw new Error("Error al obtener los datos");
+        const dato = await RespuestadeApi.json();
         return dato;
     } catch (error) {
-        console.error("Hubo un problema con la petición Fetch:", error);
+        console.error("Lol", error);
     }
 }
 
-function mostrarDatos(recetario) {
-    let html = '';
-    let mostrar = document.querySelector('.row');
+async function EsperarResultado() {
+    const ResultadoDeApi = await ObtenerCotisacion();
+    if (!ResultadoDeApi) return;  // Evita continuar si no hay datos
 
-    recetario.forEach(function(imagen) {
+    let mostrar = document.querySelector('.row');
+    let html = '';
+
+    ResultadoDeApi.forEach((element) => {
         html += `
             <div class="col">
                 <div class="card shadow-sm">
-                    <img src="${imagen.foto}" alt="cafe" width="100%" height="325">
+                    <img src="${element.foto}" alt="cafe" width="100%" height="325">
                     <div class="card-body">
-                        <h4 class="title">${imagen.nombre}</h4>
-                        <p class="card-text">Categoría: ${imagen.categoria}</p>
+                        <h4 class="title">${element.nombre}</h4>
+                        <p class="card-text">Categoría: ${element.categoria}</p>
                         <div class="d-flex justify-content-between align-items-end">
                             <div class="btn-group">
                                 <button type="button" class="btn btn-sm btn-outline-secondary">Ver receta</button>
@@ -35,10 +38,5 @@ function mostrarDatos(recetario) {
     mostrar.innerHTML = html;
 }
 
-async function EsperarResultado() {
-    const resultadoDeApi = await ObtenerCotisacion();
-    if (resultadoDeApi) mostrarDatos(resultadoDeApi);
-}
-
-// Llamada inicial para obtener y mostrar los datos
+// Llamada inicial para cargar los datos
 EsperarResultado();
