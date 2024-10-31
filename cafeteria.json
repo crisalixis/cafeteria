@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "nombre": "Batido de cafe",
+        "categoria": "Bebida", 
+        "foto": "https://raw.githubusercontent.com/crisalixis/cafeteria/refs/heads/main/img/bebidas/1/1.jpg"
+    },
+    {
+        "id": 2,
+        "nombre": "Frappe",
+        "categoria": "Bebida",
+        "foto": "https://raw.githubusercontent.com/crisalixis/cafeteria/refs/heads/main/img/bebidas/2/2.jpg"
+    },
+    {
+        "id": 3,
+        "nombre": "Cafe helado",
+        "categoria": "Bebida",
+        "foto": "https://raw.githubusercontent.com/crisalixis/cafeteria/refs/heads/main/img/bebidas/2/2.jpg"
+    }
+]
