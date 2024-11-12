@@ -2,19 +2,61 @@
     {
         "id": 1,
         "nombre": "Batido de cafe",
-        "categoria": "Bebida", 
-        "foto": "https://raw.githubusercontent.com/crisalixis/cafeteria/refs/heads/main/img/bebidas/1/1.jpg"
+        "categoria": "Bebida fria", 
+        "foto": "https://raw.githubusercontent.com/crisalixis/cafeteria/refs/heads/main/img/bebidas/bebidas-frias/1/1.jpg"
     },
     {
         "id": 2,
         "nombre": "Frappe",
-        "categoria": "Bebida",
-        "foto": "https://raw.githubusercontent.com/crisalixis/cafeteria/refs/heads/main/img/bebidas/2/2.jpg"
+        "categoria": "Bebida fria",
+        "foto": "https://raw.githubusercontent.com/crisalixis/cafeteria/refs/heads/main/img/bebidas/bebidas-frias/2/2.jpg"
     },
     {
         "id": 3,
-        "nombre": "Cafe helado",
-        "categoria": "Bebida",
-        "foto": "https://raw.githubusercontent.com/crisalixis/cafeteria/refs/heads/main/img/bebidas/2/2.jpg"
+        "nombre": "Expresso",
+        "categoria": "Bebida caliente",
+        "foto": "https://raw.githubusercontent.com/crisalixis/cafeteria/refs/heads/main/img/bebidas/bebidas-calientes/3/3.jpg"
+    },
+    {
+        "id": 4,
+        "nombre": "Café cortado",
+        "categoria": "Bebida caliente",
+        "foto": "https://raw.githubusercontent.com/crisalixis/cafeteria/refs/heads/main/img/bebidas/bebidas-calientes/4/4.jpeg"
+
+    },
+    {
+        "id": 5,
+        "nombre": "Café Australiano",
+        "categoria": "Bebida caliente",
+        "foto": "https://raw.githubusercontent.com/crisalixis/cafeteria/refs/heads/main/img/bebidas/bebidas-calientes/5/5.jpg"
+
+    },
+    {
+        "id": 6,
+        "nombre": "Galletas de chocolate",
+        "categoria": "Postre",
+        "foto": ""
+
+    },
+    {
+        "id": 7,
+        "nombre": "Cheescake",
+        "categoria": "Torta",
+        "foto": "https://raw.githubusercontent.com/crisalixis/cafeteria/refs/heads/main/img/tortas/7/7.jpg"
+
+    },
+    {
+        "id": 8,
+        "nombre": "Flan",
+        "categoria": "Postre",
+        "foto": "https://raw.githubusercontent.com/crisalixis/cafeteria/refs/heads/main/img/postres/8/8.jpg"
+
+    },
+    {
+        "id": 9,
+        "nombre": "Cupcake de chocolate",
+        "categoria": "Postre",
+        "foto": "https://raw.githubusercontent.com/crisalixis/cafeteria/refs/heads/main/img/postres/9/9.jpg"
+
     }
 ]
