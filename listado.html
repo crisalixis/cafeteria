@@ -30,7 +30,7 @@
                   </li>
                 </ul>
                 <form class="d-flex" role="search">
-                  <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Buscar">
+                  <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Buscar" id="search-input">
                   <button type="button" class="btn btn-success">
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
                     <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"></path>
@@ -43,11 +43,11 @@
     </header>
     <nav id="botones">
       <div class="d-grid gap-2 d-md-flex justify-content-md-center">
-        <button type="button" class="btn btn-blue-primary">Todo</button>
-        <button type="button" class="btn btn-green-clear-primary">Bebidas Frias</button>
-        <button type="button" class="btn btn-red-primary">Bebidas Calientes</button>
-        <button type="button" class="btn btn-green-darky-primary">Postres</button>
-        <button type="button" class="btn btn-violet-primary">Tortas</button>
+        <button type="button" class="btn btn-blue-primary" id="todo">Todo</button>
+        <button type="button" class="btn btn-green-clear-primary" id="bebidas-frias">Bebidas Frias</button>
+        <button type="button" class="btn btn-red-primary"id="bebidas-calientes">Bebidas Calientes</button>
+        <button type="button" class="btn btn-green-darky-primary" id="postres">Postres</button>
+        <button type="button" class="btn btn-violet-primary" id="tortas">Tortas</button>
       </div>
     </nav>
     <main id="album">
@@ -67,7 +67,6 @@
           </div>
       </nav>
   </footer>
-  <script src="js/jquery.min.js"></script>
   <script src="js/functions.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>  
 </body>
