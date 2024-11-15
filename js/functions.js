@@ -5,8 +5,6 @@ async function ObtenerDatos() {
 }
 
 async function EsperarResultado(dato) {
-    //const result = await ObtenerDatos();
-
     let mostrar = document.querySelector('.row');
     let html = '';
 
@@ -40,9 +38,21 @@ function FiltrarPorCategoria(dato, categoria) {
     return filtrados;
 }
 
+// Función para buscar productos por nombre, categoría o ID
+function BuscarProducto(dato, busqueda) {
+    const query = busqueda.toLowerCase(); 
+    return dato.filter((producto) =>
+        producto.nombre.toLowerCase().includes(query) ||
+        producto.categoria.toLowerCase().includes(query) ||
+        producto.id.toString().includes(query)
+    );
+}
+
+// Configurar búsqueda y filtros
 async function ConfigurarFiltros() {
     const dato = await ObtenerDatos();
 
+    // Configurar eventos de filtro
     document.querySelector('#todo').addEventListener('click', () => {
         EsperarResultado(FiltrarPorCategoria(dato, 'Todo'));
     });
@@ -51,17 +61,26 @@ async function ConfigurarFiltros() {
         EsperarResultado(FiltrarPorCategoria(dato, 'Bebida fria'));
     });
 
-    
     document.querySelector('#bebidas-calientes').addEventListener('click', () => {
         EsperarResultado(FiltrarPorCategoria(dato, 'Bebida caliente'));
     });
-    
+
     document.querySelector('#postres').addEventListener('click', () => {
         EsperarResultado(FiltrarPorCategoria(dato, 'Postre'));
     });
 
     document.querySelector('#tortas').addEventListener('click', () => {
         EsperarResultado(FiltrarPorCategoria(dato, 'Torta'));
+    });
+
+    // Configurar búsqueda
+    const buscarInput = document.querySelector('#search-input');
+    const buscarButton = document.querySelector('#search-button');
+
+    // Manejar evento de búsqueda
+    buscarButton.addEventListener('click', () => {
+        const query = buscarInput.value;
+        EsperarResultado(BuscarProducto(dato, query));
     });
 }
 
@@ -72,6 +91,7 @@ async function IniciarAplicacion() {
 }
 
 IniciarAplicacion();
+
 //ObtenerDatos no tiene pararamtero viene vacio
 
 //FiltroBoton puede llegar a tener varios filtros
