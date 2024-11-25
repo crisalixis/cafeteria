@@ -35,7 +35,7 @@
         "id": 6,
         "nombre": "Galletas de chocolate",
         "categoria": "Postre",
-        "foto": ""
+        "foto": "https://raw.githubusercontent.com/crisalixis/cafeteria/refs/heads/main/img/postres/6/6.jpeg"
 
     },
     {
@@ -58,5 +58,167 @@
         "categoria": "Postre",
         "foto": "https://raw.githubusercontent.com/crisalixis/cafeteria/refs/heads/main/img/postres/9/9.jpg"
 
+    },
+    {
+        "id":10,
+        "nombre":"Choco Flan",
+        "categoria":"Postre",
+        "foto":"https://raw.githubusercontent.com/crisalixis/cafeteria/refs/heads/main/img/postres/10/10.jpg"
+    },
+    {
+        "id":11,
+        "nombre":"Gelatina",
+        "categoria":"Postre",
+        "foto":"https://raw.githubusercontent.com/crisalixis/cafeteria/refs/heads/main/img/postres/11/11.jpg"
+    },
+    {
+        "id":12,
+        "nombre":"Cupcake de crema de frutilla",
+        "categoria":"Postre",
+        "foto":"https://raw.githubusercontent.com/crisalixis/cafeteria/refs/heads/main/img/postres/12/12.jpg"
+    },
+    {
+        "id":13,
+        "nombre":"Cupcake de crema de vainilla",
+        "categoria":"Postre",
+        "foto":"https://raw.githubusercontent.com/crisalixis/cafeteria/refs/heads/main/img/postres/13/13.jpeg"
+    },
+    {
+        "id":14,
+        "nombre":"Torta de chocolate",
+        "categoria":"Torta",
+        "foto":"https://raw.githubusercontent.com/crisalixis/cafeteria/refs/heads/main/img/tortas/14/14.png"
+    },
+    {
+        "id":15,
+        "nombre":"Torta de chocolate, almendra",
+        "categoria":"Torta",
+        "foto":"https://raw.githubusercontent.com/crisalixis/cafeteria/refs/heads/main/img/tortas/15/15.png"
+    },
+    {
+        "id":16,
+        "nombre":"Torta de crema",
+        "categoria":"Torta",
+        "foto":"https://raw.githubusercontent.com/crisalixis/cafeteria/refs/heads/main/img/tortas/16/16.jpg"
+    },
+    {
+        "id":17,
+        "nombre":"Torta de crema",
+        "categoria":"Torta",
+        "foto":"https://raw.githubusercontent.com/crisalixis/cafeteria/refs/heads/main/img/tortas/17/17.png"
+    },
+    {
+        "id":18,
+        "nombre":"Torta de crema y chocolate",
+        "categoria":"Torta",
+        "foto":"https://raw.githubusercontent.com/crisalixis/cafeteria/refs/heads/main/img/tortas/18/18.png"
+    },
+    {
+        "id":19,
+        "nombre":"Torta de cereza",
+        "categoria":"Torta",
+        "foto":"https://raw.githubusercontent.com/crisalixis/cafeteria/refs/heads/main/img/tortas/19/19.jpeg"
+    },
+    {
+        "id":20,
+        "nombre":"Torta de frambuesa",
+        "categoria":"Torta",
+        "foto":"https://raw.githubusercontent.com/crisalixis/cafeteria/refs/heads/main/img/tortas/20/20.png"
+    },
+    {
+        "id":21,
+        "nombre":"Torta de frutos rojos",
+        "categoria":"Torta",
+        "foto":"https://raw.githubusercontent.com/crisalixis/cafeteria/refs/heads/main/img/tortas/21/21.png"
+    },
+    {
+        "id":22,
+        "nombre":"Cafe con leche",
+        "categoria":"Bebida caliente",
+        "foto":"https://raw.githubusercontent.com/crisalixis/cafeteria/refs/heads/main/img/bebidas/bebidas-calientes/22/22.jpeg"
+    },
+    {
+        "id":23,
+        "nombre":"Capuchino",
+        "categoria":"Bebida caliente",
+        "foto":"https://raw.githubusercontent.com/crisalixis/cafeteria/refs/heads/main/img/bebidas/bebidas-calientes/23/23.jpeg"
+    },
+    {
+        "id":24,
+        "nombre":"Cafe con crema",
+        "categoria":"Bebida caliente",
+        "foto":"https://raw.githubusercontent.com/crisalixis/cafeteria/refs/heads/main/img/bebidas/bebidas-calientes/24/24.jpeg"
+    },
+    {
+        "id":25,
+        "nombre":"Submarino",
+        "categoria":"Bebida caliente",
+        "foto":"https://raw.githubusercontent.com/crisalixis/cafeteria/refs/heads/main/img/bebidas/bebidas-calientes/25/25.jpeg"
+    },
+    {
+        "id":26,
+        "nombre":"Cafe cortado",
+        "categoria":"Bebida caliente",
+        "foto":"https://raw.githubusercontent.com/crisalixis/cafeteria/refs/heads/main/img/bebidas/bebidas-calientes/26/26.jpeg"
+    },
+    {
+        "id":27,
+        "nombre":"Lagrima de leche",
+        "categoria":"Bebida caliente",
+        "foto":"https://raw.githubusercontent.com/crisalixis/cafeteria/refs/heads/main/img/bebidas/bebidas-calientes/27/27.jpeg"
+    },
+    {
+        "id":28,
+        "nombre":"Batido de frutilla",
+        "categoria":"Bebida fria",
+        "foto":"https://raw.githubusercontent.com/crisalixis/cafeteria/refs/heads/main/img/bebidas/bebidas-frias/28/28.jpeg"
+    },
+    {
+        "id":29,
+        "nombre":"Jugo de naranja",
+        "categoria":"Bebida fria",
+        "foto":"https://raw.githubusercontent.com/crisalixis/cafeteria/refs/heads/main/img/bebidas/bebidas-frias/29/29.jpeg"
+    },
+    {
+        "id":30,
+        "nombre":"Milkshake",
+        "categoria":"Bebida fria",
+        "foto":"https://raw.githubusercontent.com/crisalixis/cafeteria/refs/heads/main/img/bebidas/bebidas-frias/30/30.jpeg"
+    },
+    {
+        "id":31,
+        "nombre":"Cafe Helado",
+        "categoria":"Bebida fria",
+        "foto":"https://raw.githubusercontent.com/crisalixis/cafeteria/refs/heads/main/img/bebidas/bebidas-frias/31/31.jpeg"
+    },
+    {
+        "id":32,
+        "nombre":"Limonada",
+        "categoria":"Bebida fria",
+        "foto":"https://raw.githubusercontent.com/crisalixis/cafeteria/refs/heads/main/img/bebidas/bebidas-frias/32/32.jpeg"
+    },
+    {
+        "id":33,
+        "nombre":"Té helado",
+        "categoria":"Bebida fria",
+        "foto":"https://raw.githubusercontent.com/crisalixis/cafeteria/refs/heads/main/img/bebidas/bebidas-frias/33/33.jpeg"
+    },
+    {
+        "id":34,
+        "nombre":"Bubble Tea",
+        "categoria":"Bebida fria",
+        "foto":"https://raw.githubusercontent.com/crisalixis/cafeteria/refs/heads/main/img/bebidas/bebidas-frias/34/34.jpeg"
+    },
+    {
+        "id":35,
+        "nombre":"Rollos de canela",
+        "categoria":"Postre",
+        "foto":"https://raw.githubusercontent.com/crisalixis/cafeteria/refs/heads/main/img/postres/35/35.jpeg"
+    },
+    {
+        "id":36,
+        "nombre":"Brownie",
+        "categoria":"Postre",
+        "foto":"https://raw.githubusercontent.com/crisalixis/cafeteria/refs/heads/main/img/postres/36/36.jpeg"
     }
 ]
